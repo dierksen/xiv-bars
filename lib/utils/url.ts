@@ -3,9 +3,9 @@ import type { LayoutViewProps, MergeDataProps } from 'types/Layout';
 import { defaultState } from 'components/App/defaultState';
 import { QueryProps } from 'types/Page';
 
-export function jsonToQuery(json:object) {
+export function jsonToQuery(json: object) {
   return Object.entries(json)
-    .reduce((items:string[], [key, value]) => {
+    .reduce((items: string[], [key, value]) => {
       const encodedKey = encodeURI(key);
       const encodedValue = encodeURI(value);
       if (encodedValue !== 'undefined') items.push(`${encodedKey}=${encodedValue}`);
@@ -20,9 +20,9 @@ interface BuildURLProps {
   mergeData?: MergeDataProps
 }
 
-type hbValue = string|string[]|number[];
+type hbValue = string | string[] | number[];
 
-export function buildUrl({ viewData, query, mergeData }:BuildURLProps):string {
+export function buildUrl({ viewData, query, mergeData }: BuildURLProps): string {
   const params = { ...viewData, ...query, ...mergeData } || {};
   const inlcudeKeys = [
     'l',
@@ -37,13 +37,13 @@ export function buildUrl({ viewData, query, mergeData }:BuildURLProps):string {
 
   if (!jobId) throw new Error('jobId param is undefined');
 
-  function formatPvp(value:boolean|number|string) {
+  function formatPvp(value: boolean | number | string) {
     const valStr = value.toString();
     if (['true', 'false'].includes(valStr)) return valStr === 'true' ? 1 : 0;
     return value;
   }
 
-  function formatHb(value:hbValue) {
+  function formatHb(value: hbValue) {
     const isArray = Array.isArray(value);
     if (isArray) return value.toString();
     return value.replaceAll(/\[|\]|"/gi, '');
@@ -72,17 +72,17 @@ export function buildUrl({ viewData, query, mergeData }:BuildURLProps):string {
   return url;
 }
 
-export function decorateRouterQuery(query:QueryProps) {
+export function decorateRouterQuery(query: QueryProps) {
   const encodedSlots = query.s1 || query.s;
   // convert isPvp url param to boolean
-  const parsePvp = (pvpVal:string):boolean => {
+  const parsePvp = (pvpVal: string): boolean => {
     if (pvpVal === '0') return false;
     if (pvpVal === '1') return true;
     return false;
   };
 
   // convert hb url param to string[]
-  const parseHb = (hbVal:string):number[]|undefined => {
+  const parseHb = (hbVal: string): number[] | undefined => {
     if (hbVal === 'undefined' || hbVal === 'null') return defaultState.viewData.hb;
     const sanitizeVal = hbVal.replaceAll(/\[|\]/gi, '');
     const hb = sanitizeVal.split(',').map((v) => parseInt(v, 10));
@@ -102,7 +102,7 @@ export function decorateRouterQuery(query:QueryProps) {
 
   const filterUndefined = Object.entries(formatProps)
     .reduce((newProps, [key, value]) => {
-      const hasValue:boolean = value !== undefined;
+      const hasValue: boolean = value !== undefined;
       if (hasValue) return { ...newProps, [key]: value };
       return newProps;
     }, {});

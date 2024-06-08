@@ -10,7 +10,7 @@ export interface ActionProps {
   Role?: string,
   UrlType?: string,
   Command?: string,
-  customIcon?: string,
+  customIcon?: boolean,
   upgradable?: boolean,
   Prefix?: string
 }

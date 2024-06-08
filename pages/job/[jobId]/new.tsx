@@ -18,7 +18,7 @@ import type { PageProps } from 'types/Page';
 
 import styles from '../../Index.module.scss';
 
-export default function Index(props:PageProps) {
+export default function Index(props: PageProps) {
   const { t } = useTranslation();
   const {
     viewData,
@@ -28,7 +28,7 @@ export default function Index(props:PageProps) {
     viewAction
   } = props;
   const router = useRouter();
-  const canonicalUrl = `https://xivbars.bejezus.com/job/${selectedJob.Abbr}`;
+  const canonicalUrl = `${domain}/job/${selectedJob.Abbr}`;
   const appDispatch = useAppDispatch();
   const jobName = translateData('Name', selectedJob, router.locale);
 
@@ -60,7 +60,7 @@ export default function Index(props:PageProps) {
       <div className="container section">
         <div className={styles.description}>
           <h2>{jobName} {t('Global.title')}</h2>
-          { selectedJob?.Description && <Lore description={selectedJob.Description} /> }
+          {selectedJob?.Description && <Lore description={selectedJob.Description} />}
         </div>
       </div>
 
@@ -72,13 +72,13 @@ export default function Index(props:PageProps) {
 }
 
 type ContextQuery = {
-  [key:string]: string | undefined
+  [key: string]: string | undefined
 };
 
-export const getServerSideProps:GetServerSideProps = async (context) => {
+export const getServerSideProps: GetServerSideProps = async (context) => {
   try {
     const { jobId, isPvp } = context.query as ContextQuery;
-    const pvp:boolean = !isPvp ? false : isPvp === '1';
+    const pvp: boolean = !isPvp ? false : isPvp === '1';
 
     // Get Selected Job
     const selectedJob = jobId ? Jobs.find((job) => job.Abbr === jobId) : null;

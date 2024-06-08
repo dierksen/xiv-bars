@@ -13,7 +13,7 @@ import Jobs from 'apiData/Jobs.json';
 import type { ClassJobProps } from 'types/ClassJob';
 import type { PageProps } from 'types/Page';
 
-export default function Index(props:PageProps) {
+export default function Index(props: PageProps) {
   const {
     viewData,
     selectedJob,
@@ -25,7 +25,7 @@ export default function Index(props:PageProps) {
   const router = useRouter();
   const displayName = translateData('Name', selectedJob, router.locale);
   const displayAbbr = translateData('Abbreviation', selectedJob, router.locale);
-  const canonicalUrl = `https://xivbars.bejezus.com/job/${selectedJob.Abbr}/${viewData?.id}`;
+  const canonicalUrl = `${domain}/job/${selectedJob.Abbr}/${viewData?.id}`;
   const pageTitle = `${viewData?.title} – ${viewData.user?.name} • ${displayName} (${displayAbbr}) • XIVBARS`;
   const appDispatch = useAppDispatch();
 
@@ -61,7 +61,7 @@ export default function Index(props:PageProps) {
   );
 }
 
-export const getServerSideProps:GetServerSideProps = async (context) => {
+export const getServerSideProps: GetServerSideProps = async (context) => {
   try {
     const jobId = context.params?.jobId as string;
     const layoutId = context.params?.layoutId as string;
