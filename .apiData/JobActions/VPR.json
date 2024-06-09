@@ -1,1 +1,248 @@
-{"PvE":{"actions":[],"roleActions":[]},"PvP":{"actions":[],"roleActions":[{"Description":"Reduces damage taken by 90% and grants immunity to <span style=\"color:#ffff66;\">Stun</span>, <span style=\"color:#ffff66;\">Heavy</span>, <span style=\"color:#ffff66;\">Bind</span>, <span style=\"color:#ffff66;\">Silence</span>, <span style=\"color:#ffff66;\">Half-asleep</span>, <span style=\"color:#ffff66;\">Sleep</span>, <span style=\"color:#ffff66;\">Deep Freeze</span>, and knockback and draw-in effects.\n\n<span style=\"color:#00cc22;\">Duration: </span>5s\n\nMovement speed is reduced by 50% for the duration of this effect.\n\nEffect ends upon reuse, using another action, or when the effect duration expires.","Description_de":"Du reduzierst deinen erlittenen Schaden um 90%, wirst immun gegen Rückstoß- und Heranzieheffekte sowie gegen alle Statuseffekte, die von <span style=\"color:#40bfff;\">Purifikation</span> aufgehoben werden können. Während <span style=\"color:#ffff66;\">Wehr</span> aktiv ist, kannst du dich zwar bewegen, allerdings ist deine Bewegungsgeschwindigkeit um 50% reduziert.\n\nDauer: 5 Sekunden\n\nEffekt endet bei erneuter Ausführung oder nächstem Kommando.","Description_fr":"Réduit de 90% vos dégâts subis.\n\nVous protège contre les projections, les attractions, et les altérations d'état soignables avec Dépuration.\n\n<span style=\"color:#ffff66;\">Durée:</span> 5s\n\nL'effet peut être interrompu en relançant l'action.\n\nLa vitesse de déplacement est réduite de 50% pendant la durée de l'effet.","Description_ja":"自身が受けるダメージを90％軽減させる。\n\nさらに、浄化で解除可能な状態異常とノックバック、引き寄せの効果を無効化する。　<span style=\"color:#00cc22;\">効果時間：</span>5秒\n\n効果時間中に再使用または他のアクションを実行するか、効果時間が経過すると防御が解除される。\n\n防御中も移動することはできるが、移動速度が50％低下する。","ID":29054,"Icon":"/i/009000/009581.png","IconHD":"/i/009000/009581_hr1.png","Name":"Guard","Name_de":"Wehr","Name_fr":"Garde","Name_ja":"防御","Url":"/Action/29054","UrlType":"Action","Prefix":"r"},{"Description":"Restores your HP and MP to maximum.\n\nCasting will be interrupted when damage is taken.","Description_de":"Du regenerierst alle deine LP und MP. Wirst du dabei unterbrochen, wird auch die Ausführung des Kommandos unterbrochen.","Description_fr":"Restaure l'intégralité de vos PV et de vos PM.\n\nL'action est interrompue si vous subissez des dégâts durant son lancement.","Description_ja":"自身のＨＰとＭＰを全回復する。\n\n詠唱中に敵から攻撃を受けると、詠唱が中断される。","ID":29055,"Icon":"/i/009000/009582.png","IconHD":"/i/009000/009582_hr1.png","Name":"Standard-issue Elixir","Name_de":"Frontenelixier ","Name_fr":"Élixir militaire","Name_ja":"軍用エリクサー","Url":"/Action/29055","UrlType":"Action","Prefix":"r"},{"Description":"Removes <span style=\"color:#ffff66;\">Stun</span>, <span style=\"color:#ffff66;\">Heavy</span>, <span style=\"color:#ffff66;\">Bind</span>, <span style=\"color:#ffff66;\">Silence</span>, <span style=\"color:#ffff66;\">Half-asleep</span>, <span style=\"color:#ffff66;\">Sleep</span>, and <span style=\"color:#ffff66;\">Deep Freeze</span>.\n\n<span style=\"color:#00cc22;\">Additional Effect: </span>Grants <span style=\"color:#ffff66;\">Resilience</span>\n\n<span style=\"color:#00cc22;\">Resilience Effect: </span>Nullifies status afflictions that can be removed by <span style=\"color:#ff7b1a;\">Purify</span>\n\n<span style=\"color:#00cc22;\">Duration: </span>5s\n\nCan be used even when under the effect of certain status afflictions.","Description_de":"Du entfernst alle <span style=\"color:#ffff66;\">Betäubung</span>-, <span style=\"color:#ffff66;\">Fessel</span>-, <span style=\"color:#ffff66;\">Stumm</span>-, <span style=\"color:#ffff66;\">Schlaftrunken</span>-, <span style=\"color:#ffff66;\">Schlaf</span>- und <span style=\"color:#ffff66;\">Tiefkühlung</span>-Effekte von dir.\n\nZusatzeffekt: <span style=\"color:#ffff66;\">Resilienz</span>\n\nDauer: 5 Sekunden\n\nEffekt von <span style=\"color:#ffff66;\">Resilienz</span>: Immun gegen alle negativen Status, die von <span style=\"color:#40bfff;\">Purifikation</span> entfernt werden können.\n\nDieses Kommando kann auch unter Einfluss der meisten negativen Status ausgeführt werden.","Description_fr":"Dissipe les altérations Étourdissement, Pesanteur, Entrave, Silence, Sommeil graduel, Sommeil et Congélation.\n\n<span style=\"color:#ffff66;\">Effet additionnel:</span> vous octroie <span style=\"color:#ff7b1a;\">Revigoration</span>.\n\n<span style=\"color:#ffff66;\">Durée:</span> 5s\n\n<span style=\"color:#ffff66;\">Revigoration:</span> immunise une fois contre les altérations d'état soignables avec Dépuration.\n\nCette action peut être utilisée même sous le coup de certaines altérations d'état.","Description_ja":"自身に付与されたスタン、ヘヴィ、バインド、沈黙、徐々に睡眠、睡眠、氷結の効果をすべて解除する。\n\n<span style=\"color:#00cc22;\">追加効果：</span>自身に<span style=\"color:#ff7b1a;\">「活性」</span>を付与する。\n\n<span style=\"color:#00cc22;\">効果時間：</span>5秒\n\n<span style=\"color:#00cc22;\">活性効果：</span>浄化で解除可能な状態異常を無効化する。\n\nこのアクションは一部を除く状態異常を受けていても実行することができる。","ID":29056,"Icon":"/i/009000/009112.png","IconHD":"/i/009000/009112_hr1.png","Name":"Purify","Name_de":"Purifikation","Name_fr":"Dépuration","Name_ja":"浄化","Url":"/Action/29056","UrlType":"Action","Prefix":"r"},{"Description":"Increases movement speed by 50%.\n\nEffect ends upon reuse or execution of another action.","Description_de":"Du erhöhst deine Bewegungsgeschwindigkeit um 50%.\n\nEffekt endet bei erneuter Ausführung oder nächstem Kommando.","Description_fr":"Augmente de 50% votre vitesse de déplacement.\n\nL'effet prend fin en relançant l'action ou en en exécutant une autre.","Description_ja":"自身の移動速度を50％上昇させる。\n\n<span style=\"color:#00cc22;\">効果時間：</span>永続\n\n効果時間中に再使用やその他のアクションを実行すると、スプリントが解除される。","ID":29057,"Icon":"/i/009000/009583.png","IconHD":"/i/009000/009583_hr1.png","Name":"Sprint","Name_de":"Sprint","Name_fr":"Sprint","Name_ja":"スプリント","Url":"/Action/29057","UrlType":"Action","Prefix":"r"},{"Description":"Restores own HP.\n\n<span style=\"color:#00cc22;\">Cure Potency: </span>15,000","Description_de":"Du regenerierst eigene LP.\n\nHeilpotenzial: 15000","Description_fr":"Restaure vos PV.\n\n<span style=\"color:#ffff66;\">Puissance:</span> 15 000","Description_ja":"自身のＨＰを回復する。　<span style=\"color:#00cc22;\">回復力：</span>15000","ID":29711,"Icon":"/i/009000/009108.png","IconHD":"/i/009000/009108_hr1.png","Name":"Recuperate","Name_de":"Genesung","Name_fr":"Rétablissement","Name_ja":"快気","Url":"/Action/29711","UrlType":"Action","Prefix":"r"}]}}
+{
+    "PvE": {
+        "actions": [
+            {
+                "ID": 430001,
+                "Name": "Steel Fangs",
+                "Icon": "/images/Steel_Fangs.png",
+                "Description": "Delivers an attack with a potency of 200.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430003,
+                "Name": "Dread Fangs",
+                "Icon": "/images/Dread_Fangs.png",
+                "Description": "Delivers an attack with a potency of 100.\n\nAdditional Effect:\n\nAfflicts target with Noxious Gnash\n\nNoxious Gnash Effect:\n\nIncreases damage you deal target by 10%\n\nDuration:\n\n20s\n\nExtends Noxious Gnash duration by 20s to a maximum of 40s.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430004,
+                "Name": "Writhing Snap",
+                "Icon": "/images/Writhing_Snap.png",
+                "Description": "Delivers a ranged attack with a potency of 200.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430006,
+                "Name": "Steel Maw",
+                "Icon": "/images/Steel_Maw.png",
+                "Description": "Delivers an attack with a potency of 150 to all nearby enemies.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430011,
+                "Name": "Dread Maw",
+                "Icon": "/images/Dread_Maw.png",
+                "Description": "Delivers an attack with a potency of 100 to all nearby enemies.\n\nAdditional Effect:\n\nAfflicts target with Noxious Gnash\n\nNoxious Gnash Effect:\n\nIncreases damage you deal target by 10%\n\nDuration:\n\n20s\n\nExtends Noxious Gnash duration by 20s to a maximum of 40s.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430012,
+                "Name": "Slither",
+                "Icon": "/images/Slither.png",
+                "Description": "Rush to a targeted enemy's or party member's location.\n\nMaximum Charges:\n\n3\n\nCannot be executed while bound.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430017,
+                "Name": "Serpent's Tail",
+                "Icon": "/images/Serpents_Tail.png",
+                "Description": "Changes to\n\nDeath Rattle\n\n,\n\nLast Lash\n\n,\n\nFirst Legacy\n\n,\n\nSecond Legacy\n\n,\n\nThird Legacy\n\n, or\n\nFourth Legacy\n\nwhen requirements for execution are met.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430020,
+                "Name": "Dreadwinder",
+                "Icon": "/images/Dreadwinder.png",
+                "Description": "Delivers an attack with a potency of 450.\n\nAdditional Effect:\n\nAfflicts target with Noxious Gnash\n\nNoxious Gnash Effect:\n\nIncreases damage you deal target by 10%\n\nDuration:\n\n20s\n\nExtends Noxious Gnash duration by 20s to a maximum of 40s.\n\nGrants a Rattling Coil, up to a maximum of 3\n\nMaximum Charges:\n\n2\n\nShares a recast timer with\n\nPit of Dread\n\n.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430021,
+                "Name": "Hunter's Coil",
+                "Icon": "/images/Hunters_Coil.png",
+                "Description": "Delivers an attack with a potency of 500.\n\n550 when executed from a target's flank.\n\nAdditional Effect:\n\nGrants Hunter's Instinct\n\nHunter's Instinct Effect:\n\nIncreases damage dealt by 10%\n\nDuration:\n\n40s\n\nAdditional Effect:\n\nGrants Hunter's Venom\n\nHunter's Venom Effect:\n\nIncreases potency of\n\nTwinfang Bite\n\nby 50\n\nDuration:\n\n30s\n\nAdditional Effect:\n\nIncreases Serpent Offerings Gauge by 5\n\nUpon successfully landing this action,\n\nTwinfang\n\nchanges to Twinfang Bite, and\n\nTwinblood\n\nchanges to\n\nTwinblood Bite\n\n.\n\nThese actions can be executed a total of two times following Hunter's Coil.\n\nCan only be executed after landing\n\nDreadwinder\n\nor\n\nSwiftskin's Coil\n\n.\n\nThis weaponskill does not share a recast timer with any other actions.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430022,
+                "Name": "Swiftskin's Coil",
+                "Icon": "/images/Swiftskins_Coil.png",
+                "Description": "Delivers an attack with a potency of 500.\n\n550 when executed from a target's rear.\n\nAdditional Effect:\n\nGrants Swiftscaled\n\nSwiftscaled Effect:\n\nReduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 15%\n\nDuration:\n\n40s\n\nAdditional Effect:\n\nGrants Swiftskin's Venom\n\nSwiftskin's Venom Effect:\n\nIncreases potency of\n\nTwinblood Bite\n\nby 50\n\nDuration:\n\n30s\n\nAdditional Effect:\n\nIncreases Serpent Offerings Gauge by 5\n\nUpon successfully landing this action,\n\nTwinfang\n\nchanges to\n\nTwinfang Bite\n\n, and\n\nTwinblood\n\nchanges to Twinblood Bite.\n\nThese actions can be executed a total of two times following Hunter's Coil.\n\nCan only be executed after landing\n\nDreadwinder\n\nor\n\nHunter's Coil\n\n.\n\nThis weaponskill does not share a recast timer with any other actions.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430023,
+                "Name": "Pit of Dread",
+                "Icon": "/images/Pit_of_Dread.png",
+                "Description": "Delivers an attack with a potency of 150 to all nearby enemies.\n\nAdditional Effect:\n\nAfflicts target with Noxious Gnash\n\nNoxious Gnash Effect:\n\nIncreases damage you deal target by 10%\n\nDuration:\n\n20s\n\nExtends Noxious Gnash duration by 20s to a maximum of 40s.\n\nGrants a Rattling Coil, up to a maximum of 3\n\nMaximum Charges:\n\n2\n\nShares a recast timer with\n\nDreadwinder\n\n.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430024,
+                "Name": "Hunter's Den",
+                "Icon": "/images/Hunters_Den.png",
+                "Description": "Delivers an attack with a potency of 220 to all nearby enemies.\n\nAdditional Effect:\n\nGrants Hunter's Instinct\n\nHunter's Instinct Effect:\n\nIncreases damage dealt by 10%\n\nDuration:\n\n40s\n\nAdditional Effect:\n\nGrants Fellhunter's Venom\n\nFellhunter's Venom Effect:\n\nIncreases potency of\n\nTwinfang Thresh\n\nby 50\n\nDuration:\n\n30s\n\nAdditional Effect:\n\nIncreases Serpent Offerings Gauge by 5\n\nUpon successfully landing this action,\n\nTwinfang\n\nchanges to Twinfang Thresh, and\n\nTwinblood\n\nchanges to\n\nTwinblood Thresh\n\n.\n\nThese actions can be executed a total of two times following Hunter's Den.\n\nCan only be executed after landing\n\nPit of Dread\n\nor\n\nSwiftskin's Den\n\n.\n\nThis weaponskill does not share a recast timer with any other actions.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430025,
+                "Name": "Swiftskin's Den",
+                "Icon": "/images/Swiftskins_Den.png",
+                "Description": "Delivers an attack with a potency of 220 to all nearby enemies.\n\nAdditional Effect:\n\nGrants Swiftscaled\n\nSwiftscaled Effect:\n\nReduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 15%\n\nDuration:\n\n40s\n\nAdditional Effect:\n\nGrants Fellskin's Venom\n\nFellskin's Venom Effect:\n\nIncreases potency of\n\nTwinblood Thresh\n\nby 50\n\nDuration:\n\n30s\n\nAdditional Effect:\n\nIncreases Serpent Offerings Gauge by 5\n\nUpon successfully landing this action,\n\nTwinfang\n\nchanges to\n\nTwinfang Thresh\n\n, and\n\nTwinblood\n\nchanges to Twinblood Thresh.\n\nThese actions can be executed a total of two times following Swiftskin's Den.\n\nCan only be executed after landing\n\nPit of Dread\n\nor\n\nHunter's Den\n\n.\n\nThis weaponskill does not share a recast timer with any other actions.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430026,
+                "Name": "Twinfang",
+                "Icon": "/images/Twinfang.png",
+                "Description": "Changes to\n\nTwinfang Bite\n\n,\n\nTwinfang Thresh\n\n, or\n\nUncoiled Twinfang\n\nwhen requirements for execution are met.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430027,
+                "Name": "Twinblood",
+                "Icon": "/images/Twinblood.png",
+                "Description": "Changes to\n\nTwinblood Bite\n\n,\n\nTwinblood Thresh\n\n, or\n\nUncoiled Twinblood\n\nwhen requirements for execution are met.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430032,
+                "Name": "Uncoiled Fury",
+                "Icon": "/images/Uncoiled_Fury.png",
+                "Description": "Delivers an attack with a potency of 500 to target and all enemies nearby it.\n\nAdditional Effect:\n\nGrants Poised for Twinfang\n\nPoised for Twinfang Effect:\n\nIncreases the potency of\n\nUncoiled Twinfang\n\nby 100\n\nDuration:\n\n60s\n\nRattling Coil Cost:\n\n1\n\nThis weaponskill does not share a recast timer with any other actions.",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430033,
+                "Name": "Serpent's Ire",
+                "Icon": "/images/Serpents_Ire.png",
+                "Description": "Grants one stack of Rattling Coil.\n\nGrants Ready to\n\nReawaken\n\n.\n\nDuration:\n\n30s",
+                "upgradable": false,
+                "customIcon": true
+            },
+            {
+                "ID": 430034,
+                "Name": "Reawaken",
+                "Icon": "/images/Reawaken.png",
+                "Description": "Delivers an attack with a potency of 600 to all nearby enemies.\n\nAdditional Effect:\n\nGrants 5 stacks of Anguine Tribute\n\nDuration:\n\n30s\n\nSerpent Offerings Gauge Cost:\n\n50",
+                "upgradable": false,
+                "customIcon": true
+            }
+        ],
+        "roleActions": [
+            {
+                "Description": "Instantly restores own HP.\n\n<span style=\"color:#00cc22;\">Cure Potency:</span> 500",
+                "Description_de": "Du regenerierst eigene LP.\n\nHeilpotenzial: 500",
+                "Description_fr": "Restaure vos PV.\n\n<span style=\"color:#ffff66;\">Puissance:</span> 500",
+                "Description_ja": "\u81ea\u8eab\u306e\uff28\uff30\u3092\u56de\u5fa9\u3059\u308b\u3002\u3000<span style=\"color:#00cc22;\">\u56de\u5fa9\u529b\uff1a</span>500",
+                "ID": 7541,
+                "Icon": "/i/000000/000821.png",
+                "IconHD": "/i/000000/000821_hr1.png",
+                "Name": "Second Wind",
+                "Name_de": "Chakra",
+                "Name_fr": "Second souffle",
+                "Name_ja": "\u5185\u4e39",
+                "Url": "/Action/7541",
+                "UrlType": "Action",
+                "Prefix": "r"
+            },
+            {
+                "Description": "Converts a portion of physical damage dealt into HP.\n\n<span style=\"color:#00cc22;\">Duration:</span> 20s",
+                "Description_de": "Du absorbierst einen Teil des physischen Schadens, den du austeilst, als eigene LP.\n\nDauer: 20 Sekunden",
+                "Description_fr": "Convertit une partie des d\u00e9g\u00e2ts inflig\u00e9s par vos attaques physiques en PV.\n\n<span style=\"color:#ffff66;\">Dur\u00e9e:</span> 20s",
+                "Description_ja": "\u4e00\u5b9a\u6642\u9593\u3001\u81ea\u8eab\u306e\u7269\u7406\u653b\u6483\u306b\u3001\u4e0e\u3048\u305f\u30c0\u30e1\u30fc\u30b8\u306e\u4e00\u90e8\u3092\uff28\uff30\u3068\u3057\u3066\u5438\u53ce\u3059\u308b\u52b9\u679c\u3092\u4ed8\u4e0e\u3059\u308b\u3002\u3000<span style=\"color:#00cc22;\">\u52b9\u679c\u6642\u9593\uff1a</span>20\u79d2",
+                "ID": 7542,
+                "Icon": "/i/000000/000823.png",
+                "IconHD": "/i/000000/000823_hr1.png",
+                "Name": "Bloodbath",
+                "Name_de": "Blutbad",
+                "Name_fr": "Bain de sang",
+                "Name_ja": "\u30d6\u30e9\u30c3\u30c9\u30d0\u30b9",
+                "Url": "/Action/7542",
+                "UrlType": "Action",
+                "Prefix": "r"
+            },
+            {
+                "Description": "Nullifies all action direction requirements.\n\n<span style=\"color:#00cc22;\">Duration:</span> 10s\n\n<span style=\"color:#00cc22;\">Maximum Charges: </span>2",
+                "Description_de": "Alle Richtungsbedingungen deiner Kommandos werden als erf\u00fcllt betrachtet, egal, aus welcher Richtung du sie ausf\u00fchrst.\n\nDauer: 10 Sekunden\n\nMaximale Aufladungen: 2",
+                "Description_fr": "Fait r\u00e9ussir les actions directionnelles dans n'importe quelle position.\n\n<span style=\"color:#ffff66;\">Dur\u00e9e:</span> 10s\n\n<span style=\"color:#ffff66;\">Maximum de charges:</span> 2",
+                "Description_ja": "\u4e00\u5b9a\u6642\u9593\u3001\u65b9\u5411\u6307\u5b9a\u6761\u4ef6\u306e\u3042\u308b\u30a2\u30af\u30b7\u30e7\u30f3\u3092\u3069\u306e\u65b9\u5411\u304b\u3089\u5b9f\u884c\u3057\u3066\u3082\u6210\u529f\u3055\u305b\u308b\u3002\u3000<span style=\"color:#00cc22;\">\u52b9\u679c\u6642\u9593\uff1a</span>10\u79d2\n\n<span style=\"color:#00cc22;\">\u6700\u5927\u30c1\u30e3\u30fc\u30b8\u6570\uff1a</span>2",
+                "ID": 7546,
+                "Icon": "/i/000000/000830.png",
+                "IconHD": "/i/000000/000830_hr1.png",
+                "Name": "True North",
+                "Name_de": "Neuausrichtung",
+                "Name_fr": "Vrai Nord",
+                "Name_ja": "\u30c8\u30a5\u30eb\u30fc\u30ce\u30fc\u30b9",
+                "Url": "/Action/7546",
+                "UrlType": "Action",
+                "Prefix": "r"
+            },
+            {
+                "Description": "Creates a barrier nullifying most knockback and draw-in effects.\n\n<span style=\"color:#00cc22;\">Duration:</span> 6s\n\n<span style=\"color:#00cc22;\">Additional Effect:</span> <span style=\"color:#ffff66;\">Slow</span> +20% when barrier is struck\n\n<span style=\"color:#00cc22;\">Duration:</span> 15s",
+                "Description_de": "Du errichtest eine Barriere um dich, die fast alle R\u00fccksto\u00df- und Heranzieheffekte verhindert.\n\nDauer: 6 Sekunden\n\nZusatzeffekt bei erlittener physischer Attacke: F\u00fcgt Angreifern 20 % <span style=\"color:#ffff66;\">Gemach</span> zu.\n\nDauer: 15 Sekunden",
+                "Description_fr": "Cr\u00e9e sur vous une barri\u00e8re annulant la plupart des projections et attractions.\n\n<span style=\"color:#ffff66;\">Dur\u00e9e:</span> 6s\n\n<span style=\"color:#ffff66;\">Effet additionnel:</span> 100% de chances que Lenteur 20% soit inflig\u00e9e \u00e0 l'assaillant \u00e0 chaque attaque physique port\u00e9e contre vous.\n\n<span style=\"color:#ffff66;\">Dur\u00e9e:</span> 15s",
+                "Description_ja": "\u81ea\u8eab\u306b\u30d0\u30ea\u30a2\u3092\u5f35\u308a\u3001\u52b9\u679c\u6642\u9593\u4e2d\u306f\u4e00\u90e8\u3092\u9664\u304f\u3059\u3079\u3066\u306e\u30ce\u30c3\u30af\u30d0\u30c3\u30af\u3068\u5f15\u304d\u5bc4\u305b\u3092\u7121\u52b9\u5316\u3059\u308b\u3002\u3000<span style=\"color:#00cc22;\">\u52b9\u679c\u6642\u9593\uff1a</span>6\u79d2\n\n<span style=\"color:#00cc22;\">\u30d0\u30ea\u30a2\u8ffd\u52a0\u52b9\u679c\uff08\u88ab\u7269\u7406\u653b\u6483\u6642\u3001\u767a\u52d5\u78ba\u7387100\uff05\uff09\uff1a</span>\u653b\u6483\u8005\u306b20\uff05\u30b9\u30ed\u30a6\u3092\u4ed8\u4e0e\u3059\u308b\u3002\u3000<span style=\"color:#00cc22;\">\u52b9\u679c\u6642\u9593\uff1a</span>15\u79d2",
+                "ID": 7548,
+                "Icon": "/i/000000/000822.png",
+                "IconHD": "/i/000000/000822_hr1.png",
+                "Name": "Arm's Length",
+                "Name_de": "Abtausch",
+                "Name_fr": "Port\u00e9e de bras",
+                "Name_ja": "\u30a2\u30fc\u30e0\u30ba\u30ec\u30f3\u30b0\u30b9",
+                "Url": "/Action/7548",
+                "UrlType": "Action",
+                "Prefix": "r"
+            },
+            {
+                "Description": "Lowers target's physical damage dealt by 10% and magic damage dealt by 5%.\n\n<span style=\"color:#00cc22;\">Duration:</span> 10s",
+                "Description_de": "Du verringerst den ausgeteilten physischen Schaden um 10% und den ausgeteilten magischen Schaden um 5%.\n\nDauer: 10 Sekunden",
+                "Description_fr": "R\u00e9duit respectivement de 10% et 5% les d\u00e9g\u00e2ts physiques et magiques inflig\u00e9s par la cible.\n\n<span style=\"color:#ffff66;\">Dur\u00e9e:</span> 10s",
+                "Description_ja": "\u4e00\u5b9a\u6642\u9593\u3001\u5bfe\u8c61\u306e\u4e0e\u7269\u7406\u30c0\u30e1\u30fc\u30b8\u309210\uff05\u3001\u4e0e\u9b54\u6cd5\u30c0\u30e1\u30fc\u30b8\u30925\uff05\u6e1b\u5c11\u3055\u305b\u308b\u3002\u3000<span style=\"color:#00cc22;\">\u52b9\u679c\u6642\u9593\uff1a</span>10\u79d2",
+                "ID": 7549,
+                "Icon": "/i/000000/000828.png",
+                "IconHD": "/i/000000/000828_hr1.png",
+                "Name": "Feint",
+                "Name_de": "Zerm\u00fcrben",
+                "Name_fr": "Restreinte",
+                "Name_ja": "\u727d\u5236",
+                "Url": "/Action/7549",
+                "UrlType": "Action",
+                "Prefix": "r"
+            },
+            {
+                "Description": "Stuns target.\n\n<span style=\"color:#00cc22;\">Duration:</span> 3s",
+                "Description_de": "Du f\u00fcgst dem Ziel <span style=\"color:#ffff66;\">Bet\u00e4ubung</span> zu.\n\nDauer: 3 Sekunden",
+                "Description_fr": "Inflige \u00c9tourdissement \u00e0 la cible.\n\n<span style=\"color:#ffff66;\">Dur\u00e9e:</span> 3s",
+                "Description_ja": "\u5bfe\u8c61\u3092\u30b9\u30bf\u30f3\u3055\u305b\u308b\u3002\u3000<span style=\"color:#00cc22;\">\u52b9\u679c\u6642\u9593\uff1a</span>3\u79d2",
+                "ID": 7863,
+                "Icon": "/i/000000/000824.png",
+                "IconHD": "/i/000000/000824_hr1.png",
+                "Name": "Leg Sweep",
+                "Name_de": "Stolperfalle",
+                "Name_fr": "Fauchage de jambe",
+                "Name_ja": "\u30ec\u30c3\u30b0\u30b9\u30a6\u30a3\u30fc\u30d7",
+                "Url": "/Action/7863",
+                "UrlType": "Action",
+                "Prefix": "r"
+            }
+        ]
+    }
+}
